@@ -1,10 +1,10 @@
-# Prompt for Your Coworker
+# Prompts to Use with Claude
 
-Copy and paste this into Claude to get help fixing the AIRS Gateway "--" problem:
+Copy and paste one of these prompts into Claude to get step-by-step help fixing the AIRS Gateway "--" problem:
 
 ---
 
-## 📋 Prompt to Give Your Coworker
+## 📋 Option 1: Complete Walkthrough
 
 ```
 I need help fixing an issue with my MCP server and Palo Alto AIRS Gateway integration.
@@ -87,9 +87,9 @@ Reference the troubleshooting section in MCP_AIRS_GATEWAY_DEPLOYMENT_GUIDE.md fr
 
 ---
 
-## 📧 As an Email/Slack Message
+## 📧 Share with Your Team
 
-Here's what you can send to your coworker:
+Here's a message you can send via email or Slack:
 
 ```
 Hey [Name],
@@ -129,7 +129,7 @@ Let me know if you need any help.
 
 ## 🎓 What Claude Will Do
 
-When your coworker pastes any of these prompts, Claude will:
+When you paste any of these prompts, Claude will:
 
 1. ✅ Read the GitHub repo (all the markdown files)
 2. ✅ Understand the lazy initialization problem
@@ -147,4 +147,7 @@ Claude has access to all the documentation in the repo, so it can provide:
 
 ---
 
-**Choose whichever prompt best fits their situation!**
+**Choose whichever prompt best fits your situation!**
+
+💡 **Tip:** All these prompts are saved in this file on GitHub for easy access:  
+https://github.com/djspears/mcp-airs-gateway-guide/blob/main/PROMPT_TO_USE.md
