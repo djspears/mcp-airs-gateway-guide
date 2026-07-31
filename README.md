@@ -70,6 +70,21 @@ Minimal code and commands to get it working fast.
 
 Field-by-field explanation of the gateway registration form.
 
+### Option 5: Testing Tool
+
+**→ [TESTING_MCP_GATEWAY.md](TESTING_MCP_GATEWAY.md)** - MCP Gateway Test Script
+
+Automated Python script to test MCP servers and trigger discovery:
+```bash
+python test_mcp_gateway.py --server news-fetcher --api-key YOUR_KEY
+```
+
+Perfect for:
+- ✓ Triggering lazy initialization automatically
+- ✓ Verifying MCP server integration
+- ✓ Testing tool execution
+- ✓ CI/CD pipelines
+
 ---
 
 ## ⚡ Fastest Path to Success
@@ -198,8 +213,17 @@ mcp-airs-gateway-guide/
 ├── MCP_AIRS_QUICKSTART.md
 │   └── One-page cheat sheet
 │
-└── AIRS_GATEWAY_UI_FIELDS.md
-    └── Visual guide to gateway UI
+├── AIRS_GATEWAY_UI_FIELDS.md
+│   └── Visual guide to gateway UI
+│
+├── TESTING_MCP_GATEWAY.md
+│   └── Guide to using the test script
+│
+├── test_mcp_gateway.py ⭐ NEW
+│   └── Automated testing tool
+│
+└── PROMPT_TO_USE.md
+    └── Ready-made prompts for Claude
 ```
 
 ---
