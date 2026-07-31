@@ -15,6 +15,29 @@ This guide shows you how to use the `test_mcp_gateway.py` script to test your MC
 
 ---
 
+## Getting the Script
+
+### Option 1: Clone the Repository (Recommended)
+
+```bash
+git clone https://github.com/djspears/mcp-airs-gateway-guide.git
+cd mcp-airs-gateway-guide
+pip install httpx
+```
+
+Now you can run: `python test_mcp_gateway.py --help`
+
+### Option 2: Download Script Directly
+
+```bash
+curl -O https://raw.githubusercontent.com/djspears/mcp-airs-gateway-guide/main/test_mcp_gateway.py
+pip install httpx
+```
+
+Now you can run: `python test_mcp_gateway.py --help`
+
+---
+
 ## Prerequisites
 
 1. **MCP Server registered in AIRS Gateway**
@@ -26,10 +49,7 @@ This guide shows you how to use the `test_mcp_gateway.py` script to test your MC
    - Check: `mcp.invoke` permission
    - Copy the key
 
-3. **Python 3.11+ with httpx**
-   ```bash
-   pip install httpx
-   ```
+3. **Python 3.11+ with httpx** (installed above)
 
 ---
 
